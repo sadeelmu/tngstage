@@ -23,7 +23,7 @@
 
 ---
 
-## Data access (IMPORTANT)
+## Data access 
 
 > **No data are included in this repository.**  
 > The hospital sEEG recordings are **restricted** and governed by INS/institutional agreements.  
