@@ -1,7 +1,7 @@
 # Inference of Attentional Mechanisms in Cognitive Tasks
 **sEEG analysis across Rest · Music · Speech**
 
-> Analysis notebooks from my internship at the **Theoretical Neurosciences Group (INS)**, supervised by **Dr. Marmaduke** and **Dr. Meysam**.  
+Analysis notebooks from my internship at the **Theoretical Neurosciences Group (INS)**, supervised by **Dr. Marmaduke** and **Dr. Meysam**.  
 
 ---
 
@@ -25,8 +25,8 @@
 
 ## Data access 
 
-> **No data are included in this repository.**  
-> The hospital sEEG recordings are **restricted** and governed by INS/institutional agreements.  
+ **No data are included in this repository.**  
+ The hospital sEEG recordings are **restricted** and governed by INS/institutional agreements.  
 
 ##  License
 Copyright (c) INS. All Rights Reserved.
