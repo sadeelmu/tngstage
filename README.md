@@ -7,18 +7,19 @@ Analysis notebooks from my internship at the **Theoretical Neurosciences Group (
 
 ## What each notebook does
 - **Introduction_to_Bayesian_Inference.ipynb** – Short tutorial notebook connecting SBI choices to the later analyses.
-- **Refactored_BVEP_SBI.ipynb** / **Tau_BVEP_SBI.ipynb** – Simulation-based inference on the 2D **Epileptor** (η and τ respectively); refactored, reproducible pipelines.
+- **Refactored_BVEP_SBI.ipynb** – Simulation-based inference on the 2D **Epileptor** for the paramaeter η refactored. 
+- **Tau_BVEP_SBI.ipynb** – Simulation-based inference on the 2D **Epileptor** for the time constant parameter τ. 
 - **TNG_Z_BVEP.ipynb** – Prototype amortized estimator for streaming **slow-state \(z\)** (assumes τ known/tightly constrained).
 
 - **sEEG_Analysis.ipynb / seeg_Desc.ipynb** – Exploratory loading, PSDs, metadata checks, channel counts, simple figures.
 
 
 - **dimReduce.ipynb** – PC1–PC2 geometry per condition; silhouette-selected **k-means** clusters; **HMM** state assignments, transition matrices, dwell times, and a pooled off-diagonal “transition propensity.”
-- **timescaleSys.ipynb** – **specparam/FOOOF** decomposition (aperiodic + peaks) and **autocorrelation-based τ** with bootstrap CIs; subject/condition summaries.
+- **timescaleSys.ipynb** – **specparam** decomposition (aperiodic + peaks) and **autocorrelation-based τ** with bootstrap CIs; subject/condition summaries.
 - **ldsAnalyze.ipynb** – Stable **LDS** fits (2D latent); eigen-derived **τ₁, τ₂** and **LAS = log₂(τ₁/τ₂)**; latent vector fields and short-horizon rollouts; exports per-channel τ/LAS for mapping.
 - **rSLDS.ipynb** – **Recurrent SLDS**: state transitions conditioned on latent position; regime occupancy/dwell, decision surfaces, per-state vector fields.
-- **casualDrivers.ipynb** – **Recurrence analysis**: ETD/AMI embeddings → low-rank variance score & forced-response dispersion; ranks putative **driver** channels per condition.
-- **electrodeMapping.ipynb** – Contact → **Destrieux** parcel (probabilistic) mapping; parcel-wise aggregates of **LAS, τ, driver strength/density**; condition contrasts; cross-method correlations (e.g., LAS vs. driver strength).
+- **causalDrivers.ipynb** – **Recurrence analysis**: ETD/AMI embeddings → low-rank variance score & forced-response dispersion; ranks putative **driver** channels per condition.
+- **electrodeMapping.ipynb** – Contact → **Destrieux** parcel (probabilistic) mapping; parcel-wise aggregates of **LAS, τ, driver strength/density**; condition contrasts; cross-method correlations (e.g., LAS vs. causal driver strength).
 
 
 ---
